@@ -53,10 +53,9 @@ for i in files:
 files = os.listdir()
 ```
 
-
+## Initialize the variables to store the number of rows, columns and dimensions of the images
 
 ```python
-# Initialize the variables to store the number of rows, columns and dimensions of the images
 rows, cols, width, height = 0
 # Iterate through the list of files to find the maximum row and column values, and also the dimensions of the images
 for file in files:
