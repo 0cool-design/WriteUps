@@ -49,6 +49,7 @@ for file in files:
             height = img.height
 rows, cols += 1
 ```
+
 ## initialize the blank image
 
 ```python
@@ -58,7 +59,7 @@ result = Image.new('RGB', (cols*width, rows*height))
 
 ## Iterate through the matrix and paste each image onto the blank image
     
-    ```python
+```python
 for i in range(rows):
     for j in range(cols):
         file = str(i) + 'x' + str(j) + '.jpg'
@@ -69,7 +70,7 @@ for i in range(rows):
 
 ## Save the final image
     
-    ```python
+```python
 result.show()
 #result.save('final.png')
 ```
