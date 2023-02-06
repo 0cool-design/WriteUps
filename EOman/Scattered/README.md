@@ -1,3 +1,5 @@
+## [Scattered] (https://ctf.eoman.com/competitions/public/cryptography/scattered) - 80 points
+
 ## Importing libraries
 
 ```python
