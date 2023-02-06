@@ -5,7 +5,7 @@ import os, hashlib, exrex, itertools
 from PIL import Image
 ```
 
-## funcion to bruteforce md5 with regex
+## Funcion to bruteforce md5 with regex
 
 ```python
 def md5_fuck(hash):
@@ -15,7 +15,7 @@ def md5_fuck(hash):
                 return s
 ```
 
-## rename file (old_name, new_name)
+## Rename file (old_name, new_name)
 
 ```python
 def rename_file(old_name, new_name):
@@ -23,7 +23,7 @@ def rename_file(old_name, new_name):
 ```
 
 
-## Get the list of all files in the current directory
+## Get all files in the current directory
 
 ```python
 files = os.listdir()
@@ -50,7 +50,7 @@ for file in files:
 rows, cols += 1
 ```
 
-## initialize the blank image
+## Initialize the blank image
 
 ```python
 # Create a blank image with the determined dimensions
