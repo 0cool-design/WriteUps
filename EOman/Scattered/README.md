@@ -33,7 +33,19 @@ def md5_fuck(hash):
 def rename_file(old_name, new_name):
     os.rename(old_name, new_name+'.jpg')
 ```
+## Get all files in the current directory exept our script
 
+```python
+files = [f for f in os.listdir('.') if os.path.isfile(f) and f != os.path.basename(__file__)]
+
+print('Files in current directory: ', files)
+for i in files:
+    if not i.endswith('.jpg'):
+        print(i)
+        new_name = md5_fuck(i)
+        rename_file(i, new_name)
+        print('New name: ', new_name)
+```
 
 ## Get all files in the current directory
 
