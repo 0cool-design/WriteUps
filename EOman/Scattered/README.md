@@ -33,7 +33,7 @@ def md5_f(hash):
 def rename_file(old_name, new_name):
     os.rename(old_name, new_name+'.jpg')
 ```
-## Get all files in the current directory exept our script
+## Iterate through the list of files and rename them
 
 ```python
 files = [f for f in os.listdir('.') if os.path.isfile(f) and f != os.path.basename(__file__)]
@@ -47,13 +47,13 @@ for i in files:
         print('New name: ', new_name)
 ```
 
-## Get all files in the current directory
+## Get the new files in the current directory
 
 ```python
 files = os.listdir()
 ```
 
-## Iterate through the list of files and rename them
+
 
 ```python
 # Initialize the variables to store the number of rows, columns and dimensions of the images
