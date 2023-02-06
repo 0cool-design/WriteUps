@@ -20,7 +20,7 @@ from PIL import Image
 ## Funcion to bruteforce md5 with regex
 
 ```python
-def md5_fuck(hash):
+def md5_f(hash):
     for i in itertools.count(1):
         for s in exrex.generate('([0-9]x[0-9])'):
             if hashlib.md5(s.encode('utf-8')).hexdigest() == hash:
@@ -42,7 +42,7 @@ print('Files in current directory: ', files)
 for i in files:
     if not i.endswith('.jpg'):
         print(i)
-        new_name = md5_fuck(i)
+        new_name = md5_f(i)
         rename_file(i, new_name)
         print('New name: ', new_name)
 ```
