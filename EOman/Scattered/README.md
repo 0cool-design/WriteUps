@@ -1,5 +1,7 @@
 # [Scattered](https://ctf.eoman.com/competitions/public/cryptography/scattered)
-### - 80 points
+### 🛢Category: Cryptography
+### 🌟 80 points
+### 👓Level: Easy
 ### Description:
 
 ```
