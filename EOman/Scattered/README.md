@@ -1,5 +1,7 @@
 # [Scattered](https://ctf.eoman.com/competitions/public/cryptography/scattered)
 ### - 80 points
+### Description:
+
 ```
 The flag is scattered among many files available in the attached zip file.
 
