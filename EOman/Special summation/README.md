@@ -21,6 +21,10 @@ For example: the sum of all odd integers between 6 and 18 will be:
 Total is 59
 ```
 
+```
+Your flag is the total sum of all "odd" integers between 10 and 1000
+```
+
 ## Function to calculate the total sum of all "odd" integers between any two given numbers 
 ```python
 
