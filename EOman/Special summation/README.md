@@ -5,7 +5,9 @@
 ### Description:
 
 ```
-Using any programming language, create a function to calculate the total sum of all "odd" integers between any two given numbers, under the condition that any sum total ends with 0 will NOT be counted.
+Using any programming language, create a function to calculate the total sum of 
+all "odd" integers between any two given numbers,
+under the condition that any sum total ends with 0 will NOT be counted.
 ```
 ```
 For example: the sum of all odd integers between 6 and 18 will be:
