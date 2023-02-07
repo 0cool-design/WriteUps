@@ -8,14 +8,6 @@
 Your flag is the longest word in the attached article file.
 ```
 
-## Importing libraries
-
-```python
-import functools as ft
-```
-
-
-
 ## read the file and split it into words and find the longest word
 
 ```python
