@@ -35,7 +35,6 @@ def sum_odd(start, end):
     temp = odds[0]
     # loop through the odds and add them to the sum
     for i in range(1, len(odds)):
-        #
         sum = temp + odds[i]
         # using modulo 10 to check if the sum ends with 0
         # if not add it to the sum
