@@ -11,6 +11,7 @@ under the condition that any sum total ends with 0 will NOT be counted.
 ```
 
 ### example:
+
 ```
 For example: the sum of all odd integers between 6 and 18 will be:
 
