@@ -1,4 +1,4 @@
-# [Longest word](https://ctf.eoman.com/competitions/public/coding/special_summation)
+# [Special summation](https://ctf.eoman.com/competitions/public/coding/special_summation)
 ### 🛢Category: Coding
 ### 🌟 35 points
 ### 👓Level: Easy
