@@ -21,7 +21,7 @@ For example: the sum of all odd integers between 6 and 18 will be:
 Total is 59
 ```
 
-## function to calculate the total sum of all "odd" integers between any two given numbers 
+## Function to calculate the total sum of all "odd" integers between any two given numbers 
 ```python
 
 def sum_odd(start, end):
@@ -41,7 +41,7 @@ def sum_odd(start, end):
     return sum
 ```
 
-## get the result
+## Get the result
 
 ```python
 sum_odd(10, 1000)
