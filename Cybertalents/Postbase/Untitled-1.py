@@ -8,8 +8,6 @@ def decode_base64(base64_message):
     if pattern.match(decoded_message):
         return decode_base64 is not None
 
-    
-
 def main():
     b64_hashes = exrex.generate('R([A-Za-z0-9+/])+BR3tCNDUzXzYxWDdZXzRSfQ==')
     for hash_value in b64_hashes:
