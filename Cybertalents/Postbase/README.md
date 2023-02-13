@@ -12,25 +12,26 @@ We got this letters and numbers and don't understand them. Can you? R[corrupted]
 ## 
 
 ```python
-import base64, exrex, re
+#!/usr/bin/env python3
 
-def decode_base64(base64_message):
-    pattern = re.compile(r'^Flag\{\w+\}$', re.IGNORECASE)
+import base64, exrex
+
+def Base64_D(base64_message):
+    global done
     base64_bytes = base64_message.encode('ascii')
-    decoded_bytes = base64.b64decode(base64_bytes)
-    decoded_message = decoded_bytes.decode('ascii')
-    if pattern.match(decoded_message):
-        return decode_base64 is not None
+    message_bytes = base64.b64decode(base64_bytes)
+    message = message_bytes.decode('ascii')
+    if message[:4].upper() =="FLAG" :
+        print("\n"+message)
 
 def main():
-    b64_hashes = exrex.generate('R([A-Za-z0-9+/])+BR3tCNDUzXzYxWDdZXzRSfQ==')
-    for hash_value in b64_hashes:
+    for i in B64hash:
         try:
-            decode_base64(str(hash_value))
+            Base64_D(str(i))
         except:
             pass
 
 if __name__ == "__main__":
+    B64hash = exrex.generate('R([A-Za-z0-9+])+BR3tCNDUzXzYxWDdZXzRSfQ==')
     main()
-    
 ```
